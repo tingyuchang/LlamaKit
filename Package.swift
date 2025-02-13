@@ -76,8 +76,7 @@ let package = Package(
     products: [
         .library(
             name: "LlamaKit",
-            targets: ["LlamaKit"]),
-        .library(name: "llama", targets: ["llama"]),
+            targets: ["LlamaKit", "llama"]),
     ],
     dependencies: [],
     targets: [
